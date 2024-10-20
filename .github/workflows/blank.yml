@@ -1,0 +1,10 @@
+name : Lab_3
+on : push
+jobs :
+    ji:
+        runs-on : ubuntu-latest
+        steps:
+        - name : st1
+          run : echo "hi"
+        - name : st2
+          run : echo "hwllo"
